@@ -131,16 +131,34 @@ Updated to include 2016 data.
 This tool shows GVA for DCMS sectors. It is based on [National Accounts](https://www.ons.gov.uk/economy/nationalaccounts) data.
 
 To help ensure the information in this dashboard is transparent, the data used is pulled directly from [gov.uk/government/statistical-data-sets/museums-and-galleries-monthly-visits](https://www.gov.uk/government/statistical-data-sets/museums-and-galleries-monthly-visits) which has information about the data and a [preview](https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/731313/Monthly_museums_and_galleries_June_2018.csv/preview), and the dashboard's [source code](https://github.com/DCMSstats/museum-visits-interactive-dashboard) is [open source](https://www.gov.uk/service-manual/technology/making-source-code-open-and-reusable) with an [Open Government Licence](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
-            ''')], id='preamble', className='markdown mysec'),
+            ''')], id='preamble', className='markdown mysection'),
 
+html.Section([
+
+html.Div([
 dcc.Dropdown(
-    id='my-dropdown',
+    id='breakdown-dropdown',
+    className='mydropdown',
     options=[{'label': i, 'value': i} for i in ['All', 'Creative Industries', 'Digital Sector', 'Cultural Sector']],
-    value='All'
+    value='Creative Industries'
 ),
+dcc.Dropdown(
+    id='indexed-dropdown',
+    className='mydropdown',
+    options=[{'label': i, 'value': i} for i in ['Actual', 'Indexed']],
+    value='Actual'
+),
+dcc.Dropdown(
+    id='cvm-dropdown',
+    className='mydropdown',
+    options=[{'label': i, 'value': i} for i in ['Current Price', 'Chained Volume Measure']],
+    value='Current Price'
+),
+], id='dropdowns'),
+        
 dcc.Graph(id='ts-graph', config={'displayModeBar': False}),
+], className='mysection'),
 ], id='main'),
-    
 
 html.Div([
 dcc.Markdown('''
@@ -155,10 +173,12 @@ Contact Details: For any queries please telephone 020 7211 6000 or email evidenc
 ], id='wrapper')
 
 
-@app.callback(Output('ts-graph', 'figure'), [Input('my-dropdown', 'value')])
-def update_graph(selected_dropdown_value):
-
-    tb = make_table(selected_dropdown_value)
+@app.callback(Output('ts-graph', 'figure'), [Input('breakdown-dropdown', 'value'), Input('indexed-dropdown', 'value')])
+def update_graph(breakdown, indexed):
+    indexed_bool = False
+    if indexed == 'Indexed':
+        indexed_bool = True
+    tb = make_table(breakdown, indexed_bool)
     traces = []
     for i in tb.index:
         traces.append(go.Scatter(
@@ -170,7 +190,7 @@ def update_graph(selected_dropdown_value):
     
     layout = dict(
         #title='Compare visits between museums',
-        margin=dict(t=50),
+        margin = dict(l=30, r=0, t=30, b=30, pad=0),
     )
     return dict(data=traces, layout=layout)
     
