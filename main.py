@@ -196,4 +196,4 @@ def update_graph(breakdown, indexed):
     
     
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server()
