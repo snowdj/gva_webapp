@@ -130,7 +130,7 @@ Updated to include 2016 data.
 
 This tool shows GVA for DCMS sectors. It is based on [National Accounts](https://www.ons.gov.uk/economy/nationalaccounts) data.
 
-To help ensure the information in this dashboard is transparent, the data used is pulled directly from [gov.uk/government/statistical-data-sets/museums-and-galleries-monthly-visits](https://www.gov.uk/government/statistical-data-sets/museums-and-galleries-monthly-visits) which has information about the data and a [preview](https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/731313/Monthly_museums_and_galleries_June_2018.csv/preview), and the dashboard's [source code](https://github.com/DCMSstats/museum-visits-interactive-dashboard) is [open source](https://www.gov.uk/service-manual/technology/making-source-code-open-and-reusable) with an [Open Government Licence](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
+To help ensure the information in this dashboard is transparent, the data used is pulled directly from [gov.uk/government/organisations/department-for-digital-culture-media-sport/about/statistics](https://www.gov.uk/government/organisations/department-for-digital-culture-media-sport/about/statistics) which has information about the data and a [preview](https://www.gov.uk/government/organisations/department-for-digital-culture-media-sport/about/statistics), and the dashboard's [source code](https://github.com/DCMSstats/gva_webapp) is [open source](https://www.gov.uk/service-manual/technology/making-source-code-open-and-reusable) with an [Open Government Licence](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
             ''')], id='preamble', className='markdown mysection'),
 
 html.Section([
