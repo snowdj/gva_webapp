@@ -3,18 +3,10 @@ import dash
 import dash_core_components as dcc
 import dash_html_components as html
 from dash.dependencies import Input, Output, State
-from flask import Flask, send_from_directory
-import os
-
-import plotly.plotly as py
+from flask import Flask
 import plotly.graph_objs as go
-import plotly.figure_factory as FF
-
 import numpy as np
 import pandas as pd
-import calendar
-import locale
-from locale import atof
 
 server = Flask(__name__, static_folder='static')
 app = dash.Dash(__name__, server=server)
