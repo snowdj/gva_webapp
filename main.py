@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 import dash
 import dash_core_components as dcc
 import dash_html_components as html
@@ -8,11 +7,9 @@ import plotly.graph_objs as go
 import numpy as np
 import pandas as pd
 
-server = Flask(__name__, static_folder='static')
+server = Flask(__name__)
 app = dash.Dash(__name__, server=server)
 app.scripts.config.serve_locally = True
-
-
 app.css.append_css({"external_url": "https://codepen.io/Maxwell8888/pen/MBxxNG.css"})
 
 # prepare data
@@ -85,14 +82,6 @@ def make_table(sector, indexed=False):
     tb = round(tb, 5)
     return tb
 
-gva_creative = make_table('Creative Industries')
-gva_digital = make_table('Digital Sector')
-gva_culture = make_table('Cultural Sector')
-gva_current = make_table('All')
-gva_current_indexed = make_table('All', indexed=True)
-
-
-#https://github.com/DCMSstats/images/raw/master/logo-gov-white.png
 app.layout = html.Div([
 
 html.Header([
