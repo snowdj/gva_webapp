@@ -1,0 +1,680 @@
+gva,sector,sub-sector,year
+291.9925654298279,Creative Industries,Crafts ,2010
+307.6828057620549,Creative Industries,Crafts ,2011
+284.3575905846875,Creative Industries,Crafts ,2012
+215.88773213126225,Creative Industries,Crafts ,2013
+395.5191476954058,Creative Industries,Crafts ,2014
+367.70774400984726,Creative Industries,Crafts ,2015
+421.3055710006122,Creative Industries,Crafts ,2016
+2448.4519117141826,Creative Industries,Publishing,2010
+2066.0017712399967,Creative Industries,Publishing,2011
+2472.8629957160165,Creative Industries,Publishing,2012
+2255.817611646517,Creative Industries,Publishing,2013
+2669.933073223351,Creative Industries,Publishing,2014
+3109.5081454276033,Creative Industries,Publishing,2015
+3347.38409181595,Creative Industries,Publishing,2016
+31.800301392852383,Creative Industries,Publishing,2010
+20.854131672187304,Creative Industries,Publishing,2011
+48.151700532467736,Creative Industries,Publishing,2012
+79.2360709368483,Creative Industries,Publishing,2013
+59.509888634254985,Creative Industries,Publishing,2014
+50.51290033005197,Creative Industries,Publishing,2015
+54.3771140284467,Creative Industries,Publishing,2016
+2517.5465049355707,Creative Industries,Publishing,2010
+2346.084620231504,Creative Industries,Publishing,2011
+2435.5726139638605,Creative Industries,Publishing,2012
+2457.4866319365124,Creative Industries,Publishing,2013
+2425.8693610821756,Creative Industries,Publishing,2014
+2590.517942051109,Creative Industries,Publishing,2015
+2788.6913760096363,Creative Industries,Publishing,2016
+4431.3770129020795,Creative Industries,Publishing,2010
+4322.185277248927,Creative Industries,Publishing,2011
+4114.086281080836,Creative Industries,Publishing,2012
+4117.3422444131475,Creative Industries,Publishing,2013
+3830.207799862109,Creative Industries,Publishing,2014
+3571.2381829130786,Creative Industries,Publishing,2015
+3844.4362653132866,Creative Industries,Publishing,2016
+857.3923388821565,Creative Industries,Publishing,2010
+1125.7390077186376,Creative Industries,Publishing,2011
+1122.0504380752266,Creative Industries,Publishing,2012
+1331.6196821446858,Creative Industries,Publishing,2013
+1307.1336075054844,Creative Industries,Publishing,2014
+1299.850005914322,Creative Industries,Publishing,2015
+1399.28793495607,Creative Industries,Publishing,2016
+103.32515129111458,Creative Industries,"IT, software and computer services",2010
+187.43766941192862,Creative Industries,"IT, software and computer services",2011
+226.5873878715509,Creative Industries,"IT, software and computer services",2012
+195.09875090108736,Creative Industries,"IT, software and computer services",2013
+179.15319338760585,Creative Industries,"IT, software and computer services",2014
+98.58025140582394,Creative Industries,"IT, software and computer services",2015
+106.12159540675333,Creative Industries,"IT, software and computer services",2016
+728.1067788820449,Creative Industries,"IT, software and computer services",2010
+893.6975224768174,Creative Industries,"IT, software and computer services",2011
+949.6885827600421,Creative Industries,"IT, software and computer services",2012
+941.3990080212022,Creative Industries,"IT, software and computer services",2013
+1180.1930763050198,Creative Industries,"IT, software and computer services",2014
+1266.7925719580128,Creative Industries,"IT, software and computer services",2015
+1363.7016224698589,Creative Industries,"IT, software and computer services",2016
+1549.3203621101711,Creative Industries,"Film, TV, video, radio and photography",2010
+2539.571168768057,Creative Industries,"Film, TV, video, radio and photography",2011
+1628.471792430577,Creative Industries,"Film, TV, video, radio and photography",2012
+1895.5759177820923,Creative Industries,"Film, TV, video, radio and photography",2013
+2922.393313808415,Creative Industries,"Film, TV, video, radio and photography",2014
+2564.074606772547,Creative Industries,"Film, TV, video, radio and photography",2015
+2577.9594873146366,Creative Industries,"Film, TV, video, radio and photography",2016
+857.9275591335174,Creative Industries,"Film, TV, video, radio and photography",2010
+1496.6075388337645,Creative Industries,"Film, TV, video, radio and photography",2011
+1926.4298079704915,Creative Industries,"Film, TV, video, radio and photography",2012
+1475.671215352002,Creative Industries,"Film, TV, video, radio and photography",2013
+1445.129512609778,Creative Industries,"Film, TV, video, radio and photography",2014
+1246.5679737375162,Creative Industries,"Film, TV, video, radio and photography",2015
+1253.3183418263475,Creative Industries,"Film, TV, video, radio and photography",2016
+3991.4153639513133,Creative Industries,"Film, TV, video, radio and photography",2010
+2904.9657489297583,Creative Industries,"Film, TV, video, radio and photography",2011
+3470.09335974559,Creative Industries,"Film, TV, video, radio and photography",2012
+3612.870083237816,Creative Industries,"Film, TV, video, radio and photography",2013
+3190.7762797627497,Creative Industries,"Film, TV, video, radio and photography",2014
+3281.6400308062025,Creative Industries,"Film, TV, video, radio and photography",2015
+3299.4106446914348,Creative Industries,"Film, TV, video, radio and photography",2016
+1127.247365605862,Creative Industries,"Film, TV, video, radio and photography",2010
+936.6493403281534,Creative Industries,"Film, TV, video, radio and photography",2011
+1154.3682606363823,Creative Industries,"Film, TV, video, radio and photography",2012
+1034.0030244120728,Creative Industries,"Film, TV, video, radio and photography",2013
+799.3997565794161,Creative Industries,"Film, TV, video, radio and photography",2014
+870.9530001545587,Creative Industries,"Film, TV, video, radio and photography",2015
+875.6693521409552,Creative Industries,"Film, TV, video, radio and photography",2016
+804.0893491991363,Creative Industries,"Music, performing and visual arts",2010
+874.2062031402663,Creative Industries,"Music, performing and visual arts",2011
+1340.6367792169601,Creative Industries,"Music, performing and visual arts",2012
+2029.8797592160156,Creative Industries,"Music, performing and visual arts",2013
+1529.3011372396427,Creative Industries,"Music, performing and visual arts",2014
+1454.7643885291764,Creative Industries,"Music, performing and visual arts",2015
+1462.642174026627,Creative Industries,"Music, performing and visual arts",2016
+552.1092933877187,Creative Industries,"Film, TV, video, radio and photography",2010
+453.4346702957225,Creative Industries,"Film, TV, video, radio and photography",2011
+570.2975731246198,Creative Industries,"Film, TV, video, radio and photography",2012
+467.60092549719366,Creative Industries,"Film, TV, video, radio and photography",2013
+279.2947643163224,Creative Industries,"Film, TV, video, radio and photography",2014
+376.7031920512522,Creative Industries,"Film, TV, video, radio and photography",2015
+431.7520851830085,Creative Industries,"Film, TV, video, radio and photography",2016
+4017.890706612281,Creative Industries,"Film, TV, video, radio and photography",2010
+4179.565329704278,Creative Industries,"Film, TV, video, radio and photography",2011
+4156.702426875379,Creative Industries,"Film, TV, video, radio and photography",2012
+4394.399074502806,Creative Industries,"Film, TV, video, radio and photography",2013
+5219.705235683678,Creative Industries,"Film, TV, video, radio and photography",2014
+5248.296807948748,Creative Industries,"Film, TV, video, radio and photography",2015
+6015.247914816991,Creative Industries,"Film, TV, video, radio and photography",2016
+6427.669908829888,Creative Industries,"IT, software and computer services",2010
+8394.608561256631,Creative Industries,"IT, software and computer services",2011
+7924.129792868603,Creative Industries,"IT, software and computer services",2012
+8315.71547741461,Creative Industries,"IT, software and computer services",2013
+9366.7886686326,Creative Industries,"IT, software and computer services",2014
+10088.387913760667,Creative Industries,"IT, software and computer services",2015
+11255.358288641335,Creative Industries,"IT, software and computer services",2016
+15455.215776154188,Creative Industries,"IT, software and computer services",2010
+15362.827486298189,Creative Industries,"IT, software and computer services",2011
+16495.649711829967,Creative Industries,"IT, software and computer services",2012
+17874.916100724364,Creative Industries,"IT, software and computer services",2013
+18668.420022636907,Creative Industries,"IT, software and computer services",2014
+19700.39491757309,Creative Industries,"IT, software and computer services",2015
+21979.230489597354,Creative Industries,"IT, software and computer services",2016
+661.5728337933205,Creative Industries,Advertising and marketing,2010
+515.7086693754735,Creative Industries,Advertising and marketing,2011
+832.3046815076359,Creative Industries,Advertising and marketing,2012
+876.4211438072444,Creative Industries,Advertising and marketing,2013
+979.0690130551864,Creative Industries,Advertising and marketing,2014
+960.4303047110542,Creative Industries,Advertising and marketing,2015
+1101.4981079354231,Creative Industries,Advertising and marketing,2016
+2297.127054865151,Creative Industries,Architecture ,2010
+2856.6571319100362,Creative Industries,Architecture ,2011
+3040.146523466109,Creative Industries,Architecture ,2012
+3007.2464001549597,Creative Industries,Architecture ,2013
+3527.3739859200628,Creative Industries,Architecture ,2014
+4024.5662093657816,Creative Industries,Architecture ,2015
+4203.286845187135,Creative Industries,Architecture ,2016
+4643.9788182978255,Creative Industries,Advertising and marketing,2010
+4925.952963607657,Creative Industries,Advertising and marketing,2011
+5661.711789493887,Creative Industries,Advertising and marketing,2012
+6152.09329606031,Creative Industries,Advertising and marketing,2013
+6058.742096709378,Creative Industries,Advertising and marketing,2014
+7220.200493008647,Creative Industries,Advertising and marketing,2015
+7496.265269461506,Creative Industries,Advertising and marketing,2016
+910.8999330374272,Creative Industries,Advertising and marketing,2010
+1311.7825728289151,Creative Industries,Advertising and marketing,2011
+1304.5280402817136,Creative Industries,Advertising and marketing,2012
+2227.2806960024827,Creative Industries,Advertising and marketing,2013
+3719.75669914285,Creative Industries,Advertising and marketing,2014
+3577.654996800801,Creative Industries,Advertising and marketing,2015
+3714.4468390597012,Creative Industries,Advertising and marketing,2016
+1967.5979749567466,Creative Industries,Design and designer fashion ,2010
+2293.176826710645,Creative Industries,Design and designer fashion ,2011
+2533.7182541254874,Creative Industries,Design and designer fashion ,2012
+2704.8611850803604,Creative Industries,Design and designer fashion ,2013
+2633.7091139280287,Creative Industries,Design and designer fashion ,2014
+3184.8162368057265,Creative Industries,Design and designer fashion ,2015
+3536.6671380025086,Creative Industries,Design and designer fashion ,2016
+697.4829469437935,Creative Industries,"Film, TV, video, radio and photography",2010
+749.8947124939039,Creative Industries,"Film, TV, video, radio and photography",2011
+778.6996707282398,Creative Industries,"Film, TV, video, radio and photography",2012
+883.1962364070547,Creative Industries,"Film, TV, video, radio and photography",2013
+749.2786760049875,Creative Industries,"Film, TV, video, radio and photography",2014
+817.3681308486093,Creative Industries,"Film, TV, video, radio and photography",2015
+907.6690123013672,Creative Industries,"Film, TV, video, radio and photography",2016
+77.01048593746174,Creative Industries,Publishing,2010
+98.5966722996654,Creative Industries,Publishing,2011
+125.65459140067941,Creative Industries,Publishing,2012
+137.497858683745,Creative Industries,Publishing,2013
+149.00021852598482,Creative Industries,Publishing,2014
+169.47963853016532,Creative Industries,Publishing,2015
+188.20334474033967,Creative Industries,Publishing,2016
+365.5962373776413,Creative Industries,"Music, performing and visual arts",2010
+581.2921843323722,Creative Industries,"Music, performing and visual arts",2011
+268.8049882591566,Creative Industries,"Music, performing and visual arts",2012
+331.6431014990161,Creative Industries,"Music, performing and visual arts",2013
+132.80482534746923,Creative Industries,"Music, performing and visual arts",2014
+717.267483225181,Creative Industries,"Music, performing and visual arts",2015
+699.6269040053446,Creative Industries,"Music, performing and visual arts",2016
+1741.159621325588,Creative Industries,"Music, performing and visual arts",2010
+1670.372007485112,Creative Industries,"Music, performing and visual arts",2011
+1734.1448292026384,Creative Industries,"Music, performing and visual arts",2012
+1696.2849750990101,Creative Industries,"Music, performing and visual arts",2013
+2170.715747437493,Creative Industries,"Music, performing and visual arts",2014
+2139.984595665192,Creative Industries,"Music, performing and visual arts",2015
+2128.422792839889,Creative Industries,"Music, performing and visual arts",2016
+200.98116127133218,Creative Industries,"Music, performing and visual arts",2010
+330.9984137636043,Creative Industries,"Music, performing and visual arts",2011
+395.3914985509752,Creative Industries,"Music, performing and visual arts",2012
+595.0460181485792,Creative Industries,"Music, performing and visual arts",2013
+298.12677219680575,Creative Industries,"Music, performing and visual arts",2014
+877.3481756193264,Creative Industries,"Music, performing and visual arts",2015
+872.6080823325815,Creative Industries,"Music, performing and visual arts",2016
+2078.7702100084957,Creative Industries,"Music, performing and visual arts",2010
+2065.069648730624,Creative Industries,"Music, performing and visual arts",2011
+2252.5769029669145,Creative Industries,"Music, performing and visual arts",2012
+2074.834589996541,Creative Industries,"Music, performing and visual arts",2013
+2656.64155670157,Creative Industries,"Music, performing and visual arts",2014
+2898.3531255749117,Creative Industries,"Music, performing and visual arts",2015
+2882.6940468021594,Creative Industries,"Music, performing and visual arts",2016
+266.0890073945844,Creative Industries,"Music, performing and visual arts",2010
+211.55993002065944,Creative Industries,"Music, performing and visual arts",2011
+236.8867692794714,Creative Industries,"Music, performing and visual arts",2012
+230.83441675586954,Creative Industries,"Music, performing and visual arts",2013
+181.5159236641308,Creative Industries,"Music, performing and visual arts",2014
+192.31410314056845,Creative Industries,"Music, performing and visual arts",2015
+191.2750780253689,Creative Industries,"Music, performing and visual arts",2016
+459.62999185004077,Creative Industries,"Museums, galleries and Libraries ",2010
+256.0615384615385,Creative Industries,"Museums, galleries and Libraries ",2011
+249.48186528497408,Creative Industries,"Museums, galleries and Libraries ",2012
+261.41379310344826,Creative Industries,"Museums, galleries and Libraries ",2013
+236.89514066496164,Creative Industries,"Museums, galleries and Libraries ",2014
+264.8358628442945,Creative Industries,"Museums, galleries and Libraries ",2015
+282.24002248454184,Creative Industries,"Museums, galleries and Libraries ",2016
+863.8272208638957,Creative Industries,"Museums, galleries and Libraries ",2010
+968.7661538461539,Creative Industries,"Museums, galleries and Libraries ",2011
+988.4233900814212,Creative Industries,"Museums, galleries and Libraries ",2012
+994.551724137931,Creative Industries,"Museums, galleries and Libraries ",2013
+990.4667519181585,Creative Industries,"Museums, galleries and Libraries ",2014
+1076.7414277684093,Creative Industries,"Museums, galleries and Libraries ",2015
+1147.5014052838674,Creative Industries,"Museums, galleries and Libraries ",2016
+937.7179992678908,Digital Sector,Manufacturing of electronics and computers    ,2010
+855.2061977097759,Digital Sector,Manufacturing of electronics and computers    ,2011
+928.2783052989713,Digital Sector,Manufacturing of electronics and computers    ,2012
+845.5196198304959,Digital Sector,Manufacturing of electronics and computers    ,2013
+594.0254906851766,Digital Sector,Manufacturing of electronics and computers    ,2014
+575.5761411690344,Digital Sector,Manufacturing of electronics and computers    ,2015
+587.9612997278836,Digital Sector,Manufacturing of electronics and computers    ,2016
+358.40017755993364,Digital Sector,Manufacturing of electronics and computers    ,2010
+379.0717352189817,Digital Sector,Manufacturing of electronics and computers    ,2011
+434.81113337289196,Digital Sector,Manufacturing of electronics and computers    ,2012
+406.5293563799409,Digital Sector,Manufacturing of electronics and computers    ,2013
+281.16951317091963,Digital Sector,Manufacturing of electronics and computers    ,2014
+348.8753338166656,Digital Sector,Manufacturing of electronics and computers    ,2015
+356.3823793967949,Digital Sector,Manufacturing of electronics and computers    ,2016
+903.6437543752562,Digital Sector,Manufacturing of electronics and computers    ,2010
+776.2460545458166,Digital Sector,Manufacturing of electronics and computers    ,2011
+891.1076167602879,Digital Sector,Manufacturing of electronics and computers    ,2012
+909.8121409086992,Digital Sector,Manufacturing of electronics and computers    ,2013
+843.58935203235,Digital Sector,Manufacturing of electronics and computers    ,2014
+648.3878235307346,Digital Sector,Manufacturing of electronics and computers    ,2015
+662.3397326313187,Digital Sector,Manufacturing of electronics and computers    ,2016
+1419.7321989768923,Digital Sector,Manufacturing of electronics and computers    ,2010
+1339.279008486341,Digital Sector,Manufacturing of electronics and computers    ,2011
+1248.5388658721424,Digital Sector,Manufacturing of electronics and computers    ,2012
+1201.1279894303343,Digital Sector,Manufacturing of electronics and computers    ,2013
+1097.3033951309455,Digital Sector,Manufacturing of electronics and computers    ,2014
+1224.7817873029953,Digital Sector,Manufacturing of electronics and computers    ,2015
+1251.1364527429644,Digital Sector,Manufacturing of electronics and computers    ,2016
+395.16078146386974,Digital Sector,Manufacturing of electronics and computers    ,2010
+292.7131761513114,Digital Sector,Manufacturing of electronics and computers    ,2011
+245.80183670779687,Digital Sector,Manufacturing of electronics and computers    ,2012
+233.18654331211064,Digital Sector,Manufacturing of electronics and computers    ,2013
+279.270238675898,Digital Sector,Manufacturing of electronics and computers    ,2014
+202.8192266756462,Digital Sector,Manufacturing of electronics and computers    ,2015
+207.18345948776226,Digital Sector,Manufacturing of electronics and computers    ,2016
+0.0,Digital Sector,Manufacturing of electronics and computers    ,2010
+0.979694779691809,Digital Sector,Manufacturing of electronics and computers    ,2011
+3.9129190537035257,Digital Sector,Manufacturing of electronics and computers    ,2012
+4.6831142204619685,Digital Sector,Manufacturing of electronics and computers    ,2013
+3.512812732723573,Digital Sector,Manufacturing of electronics and computers    ,2014
+5.121146983935793,Digital Sector,Manufacturing of electronics and computers    ,2015
+5.23134303422793,Digital Sector,Manufacturing of electronics and computers    ,2016
+3032.580763444755,Digital Sector,Wholesale of computers and electronics    ,2010
+3432.64356430617,Digital Sector,Wholesale of computers and electronics    ,2011
+3806.9757904455805,Digital Sector,Wholesale of computers and electronics    ,2012
+4198.864120399695,Digital Sector,Wholesale of computers and electronics    ,2013
+2383.193820720775,Digital Sector,Wholesale of computers and electronics    ,2014
+2453.391425282713,Digital Sector,Wholesale of computers and electronics    ,2015
+2607.399506102662,Digital Sector,Wholesale of computers and electronics    ,2016
+2680.5582288646156,Digital Sector,Wholesale of computers and electronics    ,2010
+2973.474774033902,Digital Sector,Wholesale of computers and electronics    ,2011
+3018.2812541579297,Digital Sector,Wholesale of computers and electronics    ,2012
+3214.6818935042506,Digital Sector,Wholesale of computers and electronics    ,2013
+2290.1395403570173,Digital Sector,Wholesale of computers and electronics    ,2014
+1916.9585953276942,Digital Sector,Wholesale of computers and electronics    ,2015
+2037.2928849299753,Digital Sector,Wholesale of computers and electronics    ,2016
+2448.4519117141826,Digital Sector,Publishing (excluding translation and interpretation activities)       ,2010
+2066.0017712399967,Digital Sector,Publishing (excluding translation and interpretation activities)       ,2011
+2472.8629957160165,Digital Sector,Publishing (excluding translation and interpretation activities)       ,2012
+2255.817611646517,Digital Sector,Publishing (excluding translation and interpretation activities)       ,2013
+2669.933073223351,Digital Sector,Publishing (excluding translation and interpretation activities)       ,2014
+3109.5081454276033,Digital Sector,Publishing (excluding translation and interpretation activities)       ,2015
+3347.38409181595,Digital Sector,Publishing (excluding translation and interpretation activities)       ,2016
+31.800301392852383,Digital Sector,Publishing (excluding translation and interpretation activities)       ,2010
+20.854131672187304,Digital Sector,Publishing (excluding translation and interpretation activities)       ,2011
+48.151700532467736,Digital Sector,Publishing (excluding translation and interpretation activities)       ,2012
+79.2360709368483,Digital Sector,Publishing (excluding translation and interpretation activities)       ,2013
+59.509888634254985,Digital Sector,Publishing (excluding translation and interpretation activities)       ,2014
+50.51290033005197,Digital Sector,Publishing (excluding translation and interpretation activities)       ,2015
+54.3771140284467,Digital Sector,Publishing (excluding translation and interpretation activities)       ,2016
+2517.5465049355707,Digital Sector,Publishing (excluding translation and interpretation activities)       ,2010
+2346.084620231504,Digital Sector,Publishing (excluding translation and interpretation activities)       ,2011
+2435.5726139638605,Digital Sector,Publishing (excluding translation and interpretation activities)       ,2012
+2457.4866319365124,Digital Sector,Publishing (excluding translation and interpretation activities)       ,2013
+2425.8693610821756,Digital Sector,Publishing (excluding translation and interpretation activities)       ,2014
+2590.517942051109,Digital Sector,Publishing (excluding translation and interpretation activities)       ,2015
+2788.6913760096363,Digital Sector,Publishing (excluding translation and interpretation activities)       ,2016
+4431.3770129020795,Digital Sector,Publishing (excluding translation and interpretation activities)       ,2010
+4322.185277248927,Digital Sector,Publishing (excluding translation and interpretation activities)       ,2011
+4114.086281080836,Digital Sector,Publishing (excluding translation and interpretation activities)       ,2012
+4117.3422444131475,Digital Sector,Publishing (excluding translation and interpretation activities)       ,2013
+3830.207799862109,Digital Sector,Publishing (excluding translation and interpretation activities)       ,2014
+3571.2381829130786,Digital Sector,Publishing (excluding translation and interpretation activities)       ,2015
+3844.4362653132866,Digital Sector,Publishing (excluding translation and interpretation activities)       ,2016
+857.3923388821565,Digital Sector,Publishing (excluding translation and interpretation activities)       ,2010
+1125.7390077186376,Digital Sector,Publishing (excluding translation and interpretation activities)       ,2011
+1122.0504380752266,Digital Sector,Publishing (excluding translation and interpretation activities)       ,2012
+1331.6196821446858,Digital Sector,Publishing (excluding translation and interpretation activities)       ,2013
+1307.1336075054844,Digital Sector,Publishing (excluding translation and interpretation activities)       ,2014
+1299.850005914322,Digital Sector,Publishing (excluding translation and interpretation activities)       ,2015
+1399.28793495607,Digital Sector,Publishing (excluding translation and interpretation activities)       ,2016
+103.32515129111458,Digital Sector,Software publishing       ,2010
+187.43766941192862,Digital Sector,Software publishing       ,2011
+226.5873878715509,Digital Sector,Software publishing       ,2012
+195.09875090108736,Digital Sector,Software publishing       ,2013
+179.15319338760585,Digital Sector,Software publishing       ,2014
+98.58025140582394,Digital Sector,Software publishing       ,2015
+106.12159540675333,Digital Sector,Software publishing       ,2016
+728.1067788820449,Digital Sector,Software publishing       ,2010
+893.6975224768174,Digital Sector,Software publishing       ,2011
+949.6885827600421,Digital Sector,Software publishing       ,2012
+941.3990080212022,Digital Sector,Software publishing       ,2013
+1180.1930763050198,Digital Sector,Software publishing       ,2014
+1266.7925719580128,Digital Sector,Software publishing       ,2015
+1363.7016224698589,Digital Sector,Software publishing       ,2016
+1549.3203621101711,Digital Sector,"Film, TV, video, radio and music   ",2010
+2539.571168768057,Digital Sector,"Film, TV, video, radio and music   ",2011
+1628.471792430577,Digital Sector,"Film, TV, video, radio and music   ",2012
+1895.5759177820923,Digital Sector,"Film, TV, video, radio and music   ",2013
+2922.393313808415,Digital Sector,"Film, TV, video, radio and music   ",2014
+2564.074606772547,Digital Sector,"Film, TV, video, radio and music   ",2015
+2577.9594873146366,Digital Sector,"Film, TV, video, radio and music   ",2016
+857.9275591335174,Digital Sector,"Film, TV, video, radio and music   ",2010
+1496.6075388337645,Digital Sector,"Film, TV, video, radio and music   ",2011
+1926.4298079704915,Digital Sector,"Film, TV, video, radio and music   ",2012
+1475.671215352002,Digital Sector,"Film, TV, video, radio and music   ",2013
+1445.129512609778,Digital Sector,"Film, TV, video, radio and music   ",2014
+1246.5679737375162,Digital Sector,"Film, TV, video, radio and music   ",2015
+1253.3183418263475,Digital Sector,"Film, TV, video, radio and music   ",2016
+3991.4153639513133,Digital Sector,"Film, TV, video, radio and music   ",2010
+2904.9657489297583,Digital Sector,"Film, TV, video, radio and music   ",2011
+3470.09335974559,Digital Sector,"Film, TV, video, radio and music   ",2012
+3612.870083237816,Digital Sector,"Film, TV, video, radio and music   ",2013
+3190.7762797627497,Digital Sector,"Film, TV, video, radio and music   ",2014
+3281.6400308062025,Digital Sector,"Film, TV, video, radio and music   ",2015
+3299.4106446914348,Digital Sector,"Film, TV, video, radio and music   ",2016
+1127.247365605862,Digital Sector,"Film, TV, video, radio and music   ",2010
+936.6493403281534,Digital Sector,"Film, TV, video, radio and music   ",2011
+1154.3682606363823,Digital Sector,"Film, TV, video, radio and music   ",2012
+1034.0030244120728,Digital Sector,"Film, TV, video, radio and music   ",2013
+799.3997565794161,Digital Sector,"Film, TV, video, radio and music   ",2014
+870.9530001545587,Digital Sector,"Film, TV, video, radio and music   ",2015
+875.6693521409552,Digital Sector,"Film, TV, video, radio and music   ",2016
+804.0893491991363,Digital Sector,"Film, TV, video, radio and music   ",2010
+874.2062031402663,Digital Sector,"Film, TV, video, radio and music   ",2011
+1340.6367792169601,Digital Sector,"Film, TV, video, radio and music   ",2012
+2029.8797592160156,Digital Sector,"Film, TV, video, radio and music   ",2013
+1529.3011372396427,Digital Sector,"Film, TV, video, radio and music   ",2014
+1454.7643885291764,Digital Sector,"Film, TV, video, radio and music   ",2015
+1462.642174026627,Digital Sector,"Film, TV, video, radio and music   ",2016
+552.1092933877187,Digital Sector,"Film, TV, video, radio and music   ",2010
+453.4346702957225,Digital Sector,"Film, TV, video, radio and music   ",2011
+570.2975731246198,Digital Sector,"Film, TV, video, radio and music   ",2012
+467.60092549719366,Digital Sector,"Film, TV, video, radio and music   ",2013
+279.2947643163224,Digital Sector,"Film, TV, video, radio and music   ",2014
+376.7031920512522,Digital Sector,"Film, TV, video, radio and music   ",2015
+431.7520851830085,Digital Sector,"Film, TV, video, radio and music   ",2016
+4017.890706612281,Digital Sector,"Film, TV, video, radio and music   ",2010
+4179.565329704278,Digital Sector,"Film, TV, video, radio and music   ",2011
+4156.702426875379,Digital Sector,"Film, TV, video, radio and music   ",2012
+4394.399074502806,Digital Sector,"Film, TV, video, radio and music   ",2013
+5219.705235683678,Digital Sector,"Film, TV, video, radio and music   ",2014
+5248.296807948748,Digital Sector,"Film, TV, video, radio and music   ",2015
+6015.247914816991,Digital Sector,"Film, TV, video, radio and music   ",2016
+519.4087187809379,Digital Sector,Telecommunications        ,2010
+772.3907657091489,Digital Sector,Telecommunications        ,2011
+891.3706786383655,Digital Sector,Telecommunications        ,2012
+852.364880645296,Digital Sector,Telecommunications        ,2013
+763.492961745718,Digital Sector,Telecommunications        ,2014
+804.1166658775628,Digital Sector,Telecommunications        ,2015
+793.0763442105358,Digital Sector,Telecommunications        ,2016
+683.0324025736642,Digital Sector,Telecommunications        ,2010
+786.7507739269536,Digital Sector,Telecommunications        ,2011
+892.269075399153,Digital Sector,Telecommunications        ,2012
+1050.0121878183973,Digital Sector,Telecommunications        ,2013
+1327.057476108655,Digital Sector,Telecommunications        ,2014
+5351.18574513875,Digital Sector,Telecommunications        ,2015
+5277.715296840223,Digital Sector,Telecommunications        ,2016
+-540.4782593984105,Digital Sector,Telecommunications        ,2010
+-496.2882386029652,Digital Sector,Telecommunications        ,2011
+-507.65740040963163,Digital Sector,Telecommunications        ,2012
+-460.5932921030107,Digital Sector,Telecommunications        ,2013
+-322.80141621019936,Digital Sector,Telecommunications        ,2014
+-237.0553918672062,Digital Sector,Telecommunications        ,2015
+-233.8006803431503,Digital Sector,Telecommunications        ,2016
+24083.03713804381,Digital Sector,Telecommunications        ,2010
+24391.146698966866,Digital Sector,Telecommunications        ,2011
+24737.01764637211,Digital Sector,Telecommunications        ,2012
+26639.216223639316,Digital Sector,Telecommunications        ,2013
+28244.250978355823,Digital Sector,Telecommunications        ,2014
+24453.75298085089,Digital Sector,Telecommunications        ,2015
+24118.00903929239,Digital Sector,Telecommunications        ,2016
+6427.669908829888,Digital Sector,"Computer programming, consultancy and related activities        ",2010
+8394.608561256631,Digital Sector,"Computer programming, consultancy and related activities        ",2011
+7924.129792868603,Digital Sector,"Computer programming, consultancy and related activities        ",2012
+8315.71547741461,Digital Sector,"Computer programming, consultancy and related activities        ",2013
+9366.7886686326,Digital Sector,"Computer programming, consultancy and related activities        ",2014
+10088.387913760667,Digital Sector,"Computer programming, consultancy and related activities        ",2015
+11255.358288641335,Digital Sector,"Computer programming, consultancy and related activities        ",2016
+15455.215776154188,Digital Sector,"Computer programming, consultancy and related activities        ",2010
+15362.827486298189,Digital Sector,"Computer programming, consultancy and related activities        ",2011
+16495.649711829967,Digital Sector,"Computer programming, consultancy and related activities        ",2012
+17874.916100724364,Digital Sector,"Computer programming, consultancy and related activities        ",2013
+18668.420022636907,Digital Sector,"Computer programming, consultancy and related activities        ",2014
+19700.39491757309,Digital Sector,"Computer programming, consultancy and related activities        ",2015
+21979.230489597354,Digital Sector,"Computer programming, consultancy and related activities        ",2016
+24.638166166549098,Digital Sector,"Computer programming, consultancy and related activities        ",2010
+55.80615291171084,Digital Sector,"Computer programming, consultancy and related activities        ",2011
+29.939663342123396,Digital Sector,"Computer programming, consultancy and related activities        ",2012
+299.20422542188555,Digital Sector,"Computer programming, consultancy and related activities        ",2013
+64.35841438411852,Digital Sector,"Computer programming, consultancy and related activities        ",2014
+82.95094894932868,Digital Sector,"Computer programming, consultancy and related activities        ",2015
+92.5462679259183,Digital Sector,"Computer programming, consultancy and related activities        ",2016
+7973.476148849375,Digital Sector,"Computer programming, consultancy and related activities        ",2010
+9348.757799533474,Digital Sector,"Computer programming, consultancy and related activities        ",2011
+8400.280831959308,Digital Sector,"Computer programming, consultancy and related activities        ",2012
+7657.16419643914,Digital Sector,"Computer programming, consultancy and related activities        ",2013
+7906.432894346373,Digital Sector,"Computer programming, consultancy and related activities        ",2014
+7794.266219716915,Digital Sector,"Computer programming, consultancy and related activities        ",2015
+8695.864953835393,Digital Sector,"Computer programming, consultancy and related activities        ",2016
+2579.4221008192103,Digital Sector,Information service activities      ,2010
+2847.041119419805,Digital Sector,Information service activities      ,2011
+3126.228275345164,Digital Sector,Information service activities      ,2012
+3560.436728976276,Digital Sector,Information service activities      ,2013
+3166.6579694631523,Digital Sector,Information service activities      ,2014
+3167.2810039664373,Digital Sector,Information service activities      ,2015
+3256.3324218788175,Digital Sector,Information service activities      ,2016
+229.60550029569612,Digital Sector,Information service activities      ,2010
+271.46334439305457,Digital Sector,Information service activities      ,2011
+421.59562927865596,Digital Sector,Information service activities      ,2012
+556.2291777162978,Digital Sector,Information service activities      ,2013
+661.0077844927144,Digital Sector,Information service activities      ,2014
+832.8400537057328,Digital Sector,Information service activities      ,2015
+856.256222837502,Digital Sector,Information service activities      ,2016
+1520.0532581415034,Digital Sector,Information service activities      ,2010
+1412.573905124629,Digital Sector,Information service activities      ,2011
+1216.7905786748197,Digital Sector,Information service activities      ,2012
+1124.3567493920914,Digital Sector,Information service activities      ,2013
+1134.7824766926228,Digital Sector,Information service activities      ,2014
+1099.4026468053726,Digital Sector,Information service activities      ,2015
+1130.313502025366,Digital Sector,Information service activities      ,2016
+345.91914074359,Digital Sector,Information service activities      ,2010
+323.9216310625114,Digital Sector,Information service activities      ,2011
+297.38551670135973,Digital Sector,Information service activities      ,2012
+225.97734391533513,Digital Sector,Information service activities      ,2013
+520.55176935151,Digital Sector,Information service activities      ,2014
+484.4762955224574,Digital Sector,Information service activities      ,2015
+498.09785325831444,Digital Sector,Information service activities      ,2016
+1203.726657877989,Digital Sector,Repair of computers and communication equipment,2010
+1408.7336604641448,Digital Sector,Repair of computers and communication equipment,2011
+1430.54727469947,Digital Sector,Repair of computers and communication equipment,2012
+1463.3818614644738,Digital Sector,Repair of computers and communication equipment,2013
+1898.854231246367,Digital Sector,Repair of computers and communication equipment,2014
+1839.825114125774,Digital Sector,Repair of computers and communication equipment,2015
+1936.7293466561555,Digital Sector,Repair of computers and communication equipment,2016
+252.19732879543957,Digital Sector,Repair of computers and communication equipment,2010
+274.8109229573126,Digital Sector,Repair of computers and communication equipment,2011
+181.0717540129178,Digital Sector,Repair of computers and communication equipment,2012
+339.5889098776322,Digital Sector,Repair of computers and communication equipment,2013
+183.5983118503451,Digital Sector,Repair of computers and communication equipment,2014
+287.71132584343104,Digital Sector,Repair of computers and communication equipment,2015
+302.86518204807584,Digital Sector,Repair of computers and communication equipment,2016
+291.9925654298279,Cultural Sector,Crafts,2010
+307.6828057620549,Cultural Sector,Crafts,2011
+284.3575905846875,Cultural Sector,Crafts,2012
+215.88773213126225,Cultural Sector,Crafts,2013
+395.5191476954058,Cultural Sector,Crafts,2014
+367.70774400984726,Cultural Sector,Crafts,2015
+421.3055710006122,Cultural Sector,Crafts,2016
+1549.3203621101711,Cultural Sector,"Film, TV and music",2010
+2539.571168768057,Cultural Sector,"Film, TV and music",2011
+1628.471792430577,Cultural Sector,"Film, TV and music",2012
+1895.5759177820923,Cultural Sector,"Film, TV and music",2013
+2922.393313808415,Cultural Sector,"Film, TV and music",2014
+2564.074606772547,Cultural Sector,"Film, TV and music",2015
+2577.9594873146366,Cultural Sector,"Film, TV and music",2016
+857.9275591335174,Cultural Sector,"Film, TV and music",2010
+1496.6075388337645,Cultural Sector,"Film, TV and music",2011
+1926.4298079704915,Cultural Sector,"Film, TV and music",2012
+1475.671215352002,Cultural Sector,"Film, TV and music",2013
+1445.129512609778,Cultural Sector,"Film, TV and music",2014
+1246.5679737375162,Cultural Sector,"Film, TV and music",2015
+1253.3183418263475,Cultural Sector,"Film, TV and music",2016
+3991.4153639513133,Cultural Sector,"Film, TV and music",2010
+2904.9657489297583,Cultural Sector,"Film, TV and music",2011
+3470.09335974559,Cultural Sector,"Film, TV and music",2012
+3612.870083237816,Cultural Sector,"Film, TV and music",2013
+3190.7762797627497,Cultural Sector,"Film, TV and music",2014
+3281.6400308062025,Cultural Sector,"Film, TV and music",2015
+3299.4106446914348,Cultural Sector,"Film, TV and music",2016
+1127.247365605862,Cultural Sector,"Film, TV and music",2010
+936.6493403281534,Cultural Sector,"Film, TV and music",2011
+1154.3682606363823,Cultural Sector,"Film, TV and music",2012
+1034.0030244120728,Cultural Sector,"Film, TV and music",2013
+799.3997565794161,Cultural Sector,"Film, TV and music",2014
+870.9530001545587,Cultural Sector,"Film, TV and music",2015
+875.6693521409552,Cultural Sector,"Film, TV and music",2016
+804.0893491991363,Cultural Sector,"Film, TV and music",2010
+874.2062031402663,Cultural Sector,"Film, TV and music",2011
+1340.6367792169601,Cultural Sector,"Film, TV and music",2012
+2029.8797592160156,Cultural Sector,"Film, TV and music",2013
+1529.3011372396427,Cultural Sector,"Film, TV and music",2014
+1454.7643885291764,Cultural Sector,"Film, TV and music",2015
+1462.642174026627,Cultural Sector,"Film, TV and music",2016
+552.1092933877187,Cultural Sector,Radio,2010
+453.4346702957225,Cultural Sector,Radio,2011
+570.2975731246198,Cultural Sector,Radio,2012
+467.60092549719366,Cultural Sector,Radio,2013
+279.2947643163224,Cultural Sector,Radio,2014
+376.7031920512522,Cultural Sector,Radio,2015
+431.7520851830085,Cultural Sector,Radio,2016
+4017.890706612281,Cultural Sector,"Film, TV and music",2010
+4179.565329704278,Cultural Sector,"Film, TV and music",2011
+4156.702426875379,Cultural Sector,"Film, TV and music",2012
+4394.399074502806,Cultural Sector,"Film, TV and music",2013
+5219.705235683678,Cultural Sector,"Film, TV and music",2014
+5248.296807948748,Cultural Sector,"Film, TV and music",2015
+6015.247914816991,Cultural Sector,"Film, TV and music",2016
+697.4829469437935,Cultural Sector,Photography,2010
+749.8947124939039,Cultural Sector,Photography,2011
+778.6996707282398,Cultural Sector,Photography,2012
+883.1962364070547,Cultural Sector,Photography,2013
+749.2786760049875,Cultural Sector,Photography,2014
+817.3681308486093,Cultural Sector,Photography,2015
+907.6690123013672,Cultural Sector,Photography,2016
+365.5962373776413,Cultural Sector,Cultural education,2010
+581.2921843323722,Cultural Sector,Cultural education,2011
+268.8049882591566,Cultural Sector,Cultural education,2012
+331.6431014990161,Cultural Sector,Cultural education,2013
+132.80482534746923,Cultural Sector,Cultural education,2014
+717.267483225181,Cultural Sector,Cultural education,2015
+699.6269040053446,Cultural Sector,Cultural education,2016
+1741.159621325588,Cultural Sector,Arts,2010
+1670.372007485112,Cultural Sector,Arts,2011
+1734.1448292026384,Cultural Sector,Arts,2012
+1696.2849750990101,Cultural Sector,Arts,2013
+2170.715747437493,Cultural Sector,Arts,2014
+2139.984595665192,Cultural Sector,Arts,2015
+2128.422792839889,Cultural Sector,Arts,2016
+200.98116127133218,Cultural Sector,Arts,2010
+330.9984137636043,Cultural Sector,Arts,2011
+395.3914985509752,Cultural Sector,Arts,2012
+595.0460181485792,Cultural Sector,Arts,2013
+298.12677219680575,Cultural Sector,Arts,2014
+877.3481756193264,Cultural Sector,Arts,2015
+872.6080823325815,Cultural Sector,Arts,2016
+2078.7702100084957,Cultural Sector,Arts,2010
+2065.069648730624,Cultural Sector,Arts,2011
+2252.5769029669145,Cultural Sector,Arts,2012
+2074.834589996541,Cultural Sector,Arts,2013
+2656.64155670157,Cultural Sector,Arts,2014
+2898.3531255749117,Cultural Sector,Arts,2015
+2882.6940468021594,Cultural Sector,Arts,2016
+266.0890073945844,Cultural Sector,Arts,2010
+211.55993002065944,Cultural Sector,Arts,2011
+236.8867692794714,Cultural Sector,Arts,2012
+230.83441675586954,Cultural Sector,Arts,2013
+181.5159236641308,Cultural Sector,Arts,2014
+192.31410314056845,Cultural Sector,Arts,2015
+191.2750780253689,Cultural Sector,Arts,2016
+459.62999185004077,Cultural Sector,Library and archives,2010
+256.0615384615385,Cultural Sector,Library and archives,2011
+249.48186528497408,Cultural Sector,Library and archives,2012
+261.41379310344826,Cultural Sector,Library and archives,2013
+236.89514066496164,Cultural Sector,Library and archives,2014
+264.8358628442945,Cultural Sector,Library and archives,2015
+282.24002248454184,Cultural Sector,Library and archives,2016
+863.8272208638957,Cultural Sector,Museums and galleries,2010
+968.7661538461539,Cultural Sector,Museums and galleries,2011
+988.4233900814212,Cultural Sector,Museums and galleries,2012
+994.551724137931,Cultural Sector,Museums and galleries,2013
+990.4667519181585,Cultural Sector,Museums and galleries,2014
+1076.7414277684093,Cultural Sector,Museums and galleries,2015
+1147.5014052838674,Cultural Sector,Museums and galleries,2016
+165.01626297940953,Cultural Sector,"Film, TV and music",2010
+137.87263878017072,Cultural Sector,"Film, TV and music",2011
+105.46110546733698,Cultural Sector,"Film, TV and music",2012
+249.5305710770187,Cultural Sector,"Film, TV and music",2013
+202.43378294916877,Cultural Sector,"Film, TV and music",2014
+115.58021556975865,Cultural Sector,"Film, TV and music",2015
+117.11304899081443,Cultural Sector,"Film, TV and music",2016
+45.20986613790138,Cultural Sector,"Film, TV and music",2010
+31.605983223945568,Cultural Sector,"Film, TV and music",2011
+37.76554573989272,Cultural Sector,"Film, TV and music",2012
+32.44660680257474,Cultural Sector,"Film, TV and music",2013
+51.02960717080993,Cultural Sector,"Film, TV and music",2014
+41.775870593139686,Cultural Sector,"Film, TV and music",2015
+47.86520627049687,Cultural Sector,"Film, TV and music",2016
+207.10082295525828,Cultural Sector,"Film, TV and music",2010
+149.02427660053797,Cultural Sector,"Film, TV and music",2011
+74.07506144869606,Cultural Sector,"Film, TV and music",2012
+99.2991573183294,Cultural Sector,"Film, TV and music",2013
+134.13746136233803,Cultural Sector,"Film, TV and music",2014
+159.16032493958147,Cultural Sector,"Film, TV and music",2015
+164.7134795705085,Cultural Sector,"Film, TV and music",2016
+780.6780766096169,Cultural Sector,Heritage,2010
+896.2153846153847,Cultural Sector,Heritage,2011
+971.7912657290896,Cultural Sector,Heritage,2012
+731.1724137931035,Cultural Sector,Heritage,2013
+935.3273657289002,Cultural Sector,Heritage,2014
+925.9589657110736,Cultural Sector,Heritage,2015
+986.8100056211355,Cultural Sector,Heritage,2016
+1422028.0,UK,All,2010
+192670.3360477817,All DCMS sectors,All,2010
+19250.284461995827,Civil Society (Non-market charities),All,2010
+63424.601748337205,Creative Industries,All,2010
+21063.533991147386,Cultural Sector,All,2010
+94502.71789062666,Digital Sector,All,2010
+8401.0,Gambling,All,2010
+7025.484184092611,Sport,All,2010
+24745.0,Telecoms,All,2010
+49150.0,Tourism,All,2010
+1458820.0,UK,All,2011
+205188.6170605847,All DCMS sectors,All,2011
+19646.63754675642,Civil Society (Non-market charities),All,2011
+67248.00827918322,Creative Industries,All,2011
+21741.415678116064,Cultural Sector,All,2011
+99551.15878865345,Digital Sector,All,2011
+9290.0,Gambling,All,2011
+7396.873746313365,Sport,All,2011
+25454.000000000004,Telecoms,All,2011
+53947.0,Tourism,All,2011
+1505718.0,UK,All,2012
+209878.60844598862,All DCMS sectors,All,2012
+16106.395054909925,Civil Society (Non-market charities),All,2012
+70722.61088991257,Creative Industries,All,2012
+22624.8604833235,Cultural Sector,All,2012
+101730.32675038166,Digital Sector,All,2012
+9883.0,Gambling,All,2012
+7880.850043942772,Sport,All,2012
+26012.999999999996,Telecoms,All,2012
+57343.0,Tourism,All,2012
+1564430.0,UK,All,2013
+220826.24581930536,All DCMS sectors,All,2013
+18666.076947443893,Civil Society (Non-market charities),All,2013
+74867.72474520678,Creative Industries,All,2013
+23306.141336269742,Cultural Sector,All,2013
+106800.37554932809,Digital Sector,All,2013
+9970.0,Gambling,All,2013
+7490.575406474468,Sport,All,2013
+28081.0,Telecoms,All,2013
+58997.0,Tourism,All,2013
+1638722.0,UK,All,2014
+227497.65655705237,All DCMS sectors,All,2014
+19784.23915509961,Civil Society (Non-market charities),All,2014
+79952.82436018197,Creative Industries,All,2014
+24520.892758842205,Cultural Sector,All,2014
+108393.6567066025,Digital Sector,All,2014
+10389.0,Gambling,All,2014
+7752.42680922657,Sport,All,2014
+30011.999999999996,Telecoms,All,2014
+60437.57113000001,Tourism,All,2014
+1684937.0,UK,All,2015
+239836.04226754134,All DCMS sectors,All,2015
+21286.846982696163,Civil Society (Non-market charities),All,2015
+85307.85135925226,Creative Industries,All,2015
+25637.396025509894,Cultural Sector,All,2015
+110155.44792005862,Digital Sector,All,2015
+11051.0,Gambling,All,2015
+8610.179788592615,Sport,All,2015
+30372.0,Telecoms,All,2015
+64641.538795635555,Tourism,All,2015
+1744435.0,UK,All,2016
+248515.262953181,All DCMS sectors,All,2016
+20933.22,Civil Society (Non-market charities),All,2016
+91828.29923770105,Creative Industries,All,2016
+26765.844655528694,Cultural Sector,All,2016
+116493.52158675782,Digital Sector,All,2016
+10647.0,Gambling,All,2016
+9035.493609944977,Sport,All,2016
+29954.999999999996,Telecoms,All,2016
+66064.88602018874,Tourism,All,2016
