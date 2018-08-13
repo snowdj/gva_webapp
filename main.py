@@ -1,6 +1,7 @@
 import dash
 import dash_core_components as dcc
 import dash_html_components as html
+from dash.dependencies import Input, Output, State
 import plotly.graph_objs as go
 from flask import Flask
 import numpy as np
@@ -85,9 +86,8 @@ def make_table(sector, indexed=False):
             tb.loc[:, y] = data.loc[:, y] / data.loc[:, 2010] * 100
 
     tb = round(tb, 5)
-        
-    
     return tb
+
 gva_creative = make_table('Creative Industries')
 gva_digital = make_table('Digital Sector')
 gva_culture = make_table('Cultural Sector')
@@ -95,24 +95,85 @@ gva_current = make_table('All')
 gva_current_indexed = make_table('All', indexed=True)
 
 
-
+#https://github.com/DCMSstats/images/raw/master/logo-gov-white.png
 app.layout = html.Div([
-    html.Div(
-        className="app-header",
-        children=[
-            html.Div('Plotly Dash', className="app-header--title")
-        ]
-    ),
-    html.Div(
-        children=html.Div([
-            html.H5('Overview'),
-            html.Div('''
-                This is an example of a simple Dash app with
-                local, customized CSS.
-            ''')
-        ])
-    )
-])
 
+html.Header([
+        html.Div([
+            html.A([
+                html.Img(src='https://github.com/DCMSstats/images/raw/master/logo-gov-white.png', id='gov-logo'),
+                html.Div(['DCMS Statistics'], id='header-stat-text'),
+                ], 
+                href='https://www.gov.uk/government/organisations/department-for-digital-culture-media-sport/about/statistics',
+                id='header-stat-link'),
+            html.Div(['BETA'], id='beta'),
+            html.Div([
+                html.P(['Give us '], id='feedback-text'), 
+                html.A(
+                    ['feedback'], 
+                    href='mailto:evidence@culture.gov.uk?subject=Museum visits dashboard feedback',
+                    id='feedback-link'
+                )
+            ], 
+            id='feedback'),
+        ],
+        id='header-content',
+        ),
+],
+),
+
+html.Div([
+html.H1('DCMS Economic Estimates - GVA', className='myh1'),
+
+html.Div([dcc.Markdown('''
+Updated to include 2016 data.
+
+This tool shows GVA for DCMS sectors. It is based on [National Accounts](https://www.ons.gov.uk/economy/nationalaccounts) data.
+
+To help ensure the information in this dashboard is transparent, the data used is pulled directly from [gov.uk/government/statistical-data-sets/museums-and-galleries-monthly-visits](https://www.gov.uk/government/statistical-data-sets/museums-and-galleries-monthly-visits) which has information about the data and a [preview](https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/731313/Monthly_museums_and_galleries_June_2018.csv/preview), and the dashboard's [source code](https://github.com/DCMSstats/museum-visits-interactive-dashboard) is [open source](https://www.gov.uk/service-manual/technology/making-source-code-open-and-reusable) with an [Open Government Licence](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
+            ''')], id='preamble', className='markdown mysec'),
+
+dcc.Dropdown(
+    id='my-dropdown',
+    options=[{'label': i, 'value': i} for i in ['All', 'Creative Industries', 'Digital Sector', 'Cultural Sector']],
+    value='All'
+),
+dcc.Graph(id='ts-graph', config={'displayModeBar': False}),
+], id='main'),
+    
+
+html.Div([
+dcc.Markdown('''
+Contact Details: For any queries please telephone 020 7211 6000 or email evidence@culture.gov.uk
+
+![Image](https://github.com/DCMSstats/images/raw/master/open-gov-licence.png) All content is available under the [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/) except where otherwise stated
+''', className='markdown')
+#    html.Img(src='https://github.com/DCMSstats/images/raw/master/open-gov-licence.png', className='ogl-logo'),
+
+], id='myfooter')
+
+], id='wrapper')
+
+
+@app.callback(Output('ts-graph', 'figure'), [Input('my-dropdown', 'value')])
+def update_graph(selected_dropdown_value):
+
+    tb = make_table(selected_dropdown_value)
+    traces = []
+    for i in tb.index:
+        traces.append(go.Scatter(
+            x=list(tb.columns),
+            y=list(tb.loc[i, :].values),
+            mode = 'lines+markers',
+            name=i
+        ))    
+    
+    layout = dict(
+        #title='Compare visits between museums',
+        margin=dict(t=50),
+    )
+    return dict(data=traces, layout=layout)
+    
+    
 if __name__ == '__main__':
     app.run_server(debug=True)
