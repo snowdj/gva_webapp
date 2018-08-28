@@ -6,6 +6,7 @@ from flask import Flask
 import plotly.graph_objs as go
 import numpy as np
 import pandas as pd
+import textwrap
 
 server = Flask(__name__)
 app = dash.Dash(__name__, server=server)
@@ -158,7 +159,8 @@ Contact Details: For any queries please telephone 020 7211 6000 or email evidenc
 
 ], id='wrapper')
 
-
+trace_name = 'The quick brows fox jumps over the lazy log'
+legend_str = '<br>'.join(textwrap.wrap(trace_name, width=26))
 @app.callback(Output('ts-graph', 'figure'), [Input('breakdown-dropdown', 'value'), Input('indexed-dropdown', 'value')])
 def update_graph(breakdown, indexed):
     indexed_bool = False
@@ -171,7 +173,7 @@ def update_graph(breakdown, indexed):
             x=list(tb.columns),
             y=list(tb.loc[i, :].values),
             mode = 'lines+markers',
-            name=i
+            name='<br>'.join(textwrap.wrap(i, width=50))
         ))    
     
     layout = dict(
