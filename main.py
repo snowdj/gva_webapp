@@ -11,7 +11,7 @@ import textwrap
 server = Flask(__name__)
 app = dash.Dash(__name__, server=server)
 app.scripts.config.serve_locally = True
-app.css.append_css({"external_url": "https://codepen.io/Maxwell8888/pen/MBxxNG.css"})
+app.css.append_css({"external_url": "https://codepen.io/Maxwell8888/pen/YOWOam.css"})
 
 # prepare data
 agg = pd.read_csv('gva_aggregate_data_2016.csv')
@@ -72,6 +72,7 @@ def make_table(sector, indexed=False):
         breakdown_col = 'sub-sector'        
 
     tb = pd.crosstab(df[breakdown_col], df['year'], values=df['gva'], aggfunc=sum)
+    tb = tb * 1000000 # data is in millions so convert to actual values
     tb = tb.reindex(row_orders[sector])
     
     if indexed:
@@ -115,31 +116,33 @@ html.H1('DCMS Economic Estimates - GVA', className='myh1'),
 html.Div([dcc.Markdown('''
 Updated to include 2016 data.
 
-This tool shows GVA for DCMS sectors. It is based on [National Accounts](https://www.ons.gov.uk/economy/nationalaccounts) data.
+This tool shows GVA for DCMS sectors. It is based on [National Accounts](https://www.ons.gov.uk/economy/nationalaccounts) and [Annual Business Survey](https://www.ons.gov.uk/ons/rel/abs/annual-business-survey/index.html) data.
 
 To help ensure the information in this dashboard is transparent, the data used is pulled directly from [gov.uk/government/organisations/department-for-digital-culture-media-sport/about/statistics](https://www.gov.uk/government/organisations/department-for-digital-culture-media-sport/about/statistics) which has information about the data and a [preview](https://www.gov.uk/government/organisations/department-for-digital-culture-media-sport/about/statistics), and the dashboard's [source code](https://github.com/DCMSstats/gva_webapp) is [open source](https://www.gov.uk/service-manual/technology/making-source-code-open-and-reusable) with an [Open Government Licence](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
             ''')], id='preamble', className='markdown mysection'),
 
 html.Section([
-
+        
 html.Div([
 dcc.Dropdown(
     id='breakdown-dropdown',
     className='mydropdown',
-    options=[{'label': i, 'value': i} for i in ['All', 'Creative Industries', 'Digital Sector', 'Cultural Sector']],
+    options=[{'label': k, 'value': v} for k,v in {'DCMS Sectors': 'All', 'Creative Industries sub-sectors': 'Creative Industries', 'Digital sub-sectors': 'Digital Sector', 'Cultural sub-sectors': 'Cultural Sector'}.items()],
     value='Creative Industries'
 ),
 dcc.Dropdown(
     id='indexed-dropdown',
     className='mydropdown',
-    options=[{'label': i, 'value': i} for i in ['Actual', 'Indexed']],
-    value='Actual'
+    options=[{'label': i, 'value': i} for i in ['Value £', 'Indexed']],
+    value='Value £'
 ),
 dcc.Dropdown(
     id='cvm-dropdown',
     className='mydropdown',
-    options=[{'label': i, 'value': i} for i in ['Current Price', 'Chained Volume Measure']],
-    value='Current Price'
+    options=[{'label': i, 'value': i} for i in ['Current Price (not adjusted for inflation)',
+#             'Chained Volume Measure (adjusted for inflation)'
+             ]],
+    value='Current Price (not adjusted for inflation)'
 ),
 ], id='dropdowns'),
         
@@ -161,8 +164,10 @@ Contact Details: For any queries please telephone 020 7211 6000 or email evidenc
 
 trace_name = 'The quick brows fox jumps over the lazy log'
 legend_str = '<br>'.join(textwrap.wrap(trace_name, width=26))
-@app.callback(Output('ts-graph', 'figure'), [Input('breakdown-dropdown', 'value'), Input('indexed-dropdown', 'value')])
-def update_graph(breakdown, indexed):
+@app.callback(Output('ts-graph', 'figure'), [Input('breakdown-dropdown', 'value'), Input('indexed-dropdown', 'value'), Input('cvm-dropdown', 'value')])
+def update_graph(breakdown, indexed, cvm):
+    
+    
     indexed_bool = False
     if indexed == 'Indexed':
         indexed_bool = True
@@ -173,12 +178,20 @@ def update_graph(breakdown, indexed):
             x=list(tb.columns),
             y=list(tb.loc[i, :].values),
             mode = 'lines+markers',
-            name='<br>'.join(textwrap.wrap(i, width=50))
+            name=i
+#            name='<br>'.join(textwrap.wrap(i, width=30))
         ))    
     
     layout = dict(
         #title='Compare visits between museums',
-        margin = dict(l=30, r=0, t=30, b=30, pad=0),
+        height = 800,
+        margin = dict(l=50, r=0, t=30, b=0, pad=0),
+#        yaxis= {'tickformat': "£"},
+#        yaxis = dict(title = '£'),
+        legend = dict(x=.01, y=-0.4),
+        xaxis = dict(tickmode='array', 
+                     tickvals = [2010, 2011, 2012, 2013, 2014, 2015, 2016],
+                     ticktext = [2010, 2011, 2012, 2013, 2014, 2015, '2016 (p)'])
     )
     return dict(data=traces, layout=layout)
     
