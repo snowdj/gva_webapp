@@ -67,12 +67,13 @@ def make_table(sector, indexed=False):
     if sector == 'All':
         df = agg.loc[agg['sub-sector'] == 'All']
         breakdown_col = 'sector'
+        df['gva'] = df['gva'] / 1000 # covnert sector level to be in bn's
     else:
         df = agg.loc[agg['sector'] == sector]
         breakdown_col = 'sub-sector'        
 
     tb = pd.crosstab(df[breakdown_col], df['year'], values=df['gva'], aggfunc=sum)
-    tb = tb * 1000000 # data is in millions so convert to actual values
+    
     tb = tb.reindex(row_orders[sector])
     
     if indexed:
@@ -133,17 +134,17 @@ dcc.Dropdown(
 dcc.Dropdown(
     id='indexed-dropdown',
     className='mydropdown',
-    options=[{'label': i, 'value': i} for i in ['Value £', 'Indexed']],
-    value='Value £'
+    options=[{'label': i, 'value': i} for i in ['Value', 'Indexed']],
+    value='Value'
 ),
-dcc.Dropdown(
-    id='cvm-dropdown',
-    className='mydropdown',
-    options=[{'label': i, 'value': i} for i in ['Current Price (not adjusted for inflation)',
-#             'Chained Volume Measure (adjusted for inflation)'
-             ]],
-    value='Current Price (not adjusted for inflation)'
-),
+#dcc.Dropdown(
+#    id='cvm-dropdown',
+#    className='mydropdown',
+#    options=[{'label': i, 'value': i} for i in ['Current Price (not adjusted for inflation)',
+##             'Chained Volume Measure (adjusted for inflation)'
+#             ]],
+#    value='Current Price (not adjusted for inflation)'
+#),
 ], id='dropdowns'),
         
 dcc.Graph(id='ts-graph', config={'displayModeBar': False}),
@@ -164,13 +165,19 @@ Contact Details: For any queries please telephone 020 7211 6000 or email evidenc
 
 trace_name = 'The quick brows fox jumps over the lazy log'
 legend_str = '<br>'.join(textwrap.wrap(trace_name, width=26))
-@app.callback(Output('ts-graph', 'figure'), [Input('breakdown-dropdown', 'value'), Input('indexed-dropdown', 'value'), Input('cvm-dropdown', 'value')])
-def update_graph(breakdown, indexed, cvm):
+@app.callback(Output('ts-graph', 'figure'), [Input('breakdown-dropdown', 'value'), Input('indexed-dropdown', 'value')])
+def update_graph(breakdown, indexed):
     
     
     indexed_bool = False
     if indexed == 'Indexed':
         indexed_bool = True
+        yaxis_title = ''
+    else:
+        if breakdown == 'All':
+            yaxis_title = '£bn'
+        else:
+            yaxis_title = '£m'
     tb = make_table(breakdown, indexed_bool)
     traces = []
     for i in tb.index:
@@ -183,12 +190,11 @@ def update_graph(breakdown, indexed, cvm):
         ))    
     
     layout = dict(
-        #title='Compare visits between museums',
-        height = 800,
-        margin = dict(l=50, r=0, t=30, b=0, pad=0),
-#        yaxis= {'tickformat': "£"},
-#        yaxis = dict(title = '£'),
-        legend = dict(x=.01, y=-0.4),
+        title='Current Price (not adjusted for inflation)',
+        height = 600,
+        margin = dict(l=80, r=0, t=80, b=100, pad=0),
+        yaxis = dict(title = yaxis_title, tickformat = ','),
+        legend = dict(x=.01, y=-0.8),
         xaxis = dict(tickmode='array', 
                      tickvals = [2010, 2011, 2012, 2013, 2014, 2015, 2016],
                      ticktext = [2010, 2011, 2012, 2013, 2014, 2015, '2016 (p)'])
